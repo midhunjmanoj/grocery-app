@@ -1,0 +1,7 @@
+<h2 class="text-center ">Sub Categories</h2>
+<ul class="list-group">
+    <li class="list-group-item" *ngFor="let subcategory of subCategories" routerLink="{{'/products/sub/'+subcategory.subId}}"><a class=" list-group-item-action btn-outline-dark" 
+      >{{subcategory.subName}}</a> </li>
+  </ul>
+
+  
